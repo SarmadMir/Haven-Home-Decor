@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "returns_policy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Returns & Refunds Policy",
+            "heading_size": "h1"
+          }
+        },
+        "content": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Return Window</h3><p>We offer a <strong>14-day return window</strong> from the date of delivery for standard items in original condition.</p><h3>What Can Be Returned</h3><p><strong>Eligible for Return:</strong><br>• Standard products in original condition<br>• Unused items with original packaging<br>• Items returned within 14 days of delivery</p><p><strong>Not Eligible for Return:</strong><br>• Custom or personalised items<br>• Items damaged by customer use<br>• Items returned after 14-day window</p><h3>Return Process</h3><p><strong>Step 1:</strong> Contact us at hello@yourstore.com with your order number<br><strong>Step 2:</strong> We'll provide return authorization and instructions<br><strong>Step 3:</strong> Package item securely with original packaging<br><strong>Step 4:</strong> Send via tracked service (customer covers return shipping)</p><h3>Refund Processing</h3><p>Once we receive and inspect your returned item:</p><ul><li>Refund processed within 3-5 working days</li><li>Refund issued to original payment method</li><li>Original shipping costs are non-refundable</li><li>Return shipping costs covered by customer</li></ul><h3>Damaged or Faulty Items</h3><p>If you receive a damaged or faulty item:</p><ul><li>Contact us within 48 hours with photos</li><li>We'll arrange free return collection</li><li>Full refund or replacement provided</li><li>No questions asked!</li></ul><h3>Exchanges</h3><p>We don't offer direct exchanges. Please return your item for a refund and place a new order for the desired item.</p><h3>Cancellations</h3><p><strong>Standard Orders:</strong> Can be cancelled within 24 hours of placing order<br><strong>Custom Orders:</strong> Cannot be cancelled once production begins</p><h3>Contact Us</h3><p>Questions about returns? Email us at hello@yourstore.com - we're here to help make it right!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "content"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main",
+    "returns_policy"
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "sections": {
+    "hero_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handcrafted Jesmonite Decor",
+            "heading_size": "h0"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "Made in the UK • Modern • Sustainable",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "/collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "subtitle",
+        "button"
+      ],
+      "settings": {
+        "image": "",
+        "image_overlay_opacity": 30,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "intro_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handcrafted Jesmonite Decor – Made in the UK",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each piece is thoughtfully handcrafted using eco-friendly Jesmonite, creating unique textures and modern designs that bring warmth to any space. From coasters to candle holders, our collection celebrates the beauty of handmade craftsmanship.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h2",
+        "description": "<p>Discover our most loved handcrafted pieces</p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "sustainability_note": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainable • Durable • Beautiful",
+            "heading_size": "h3"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jesmonite is an eco-friendly alternative to traditional materials. Our handcrafted pieces are not only beautiful but also sustainable, making them perfect for conscious consumers who value quality and environmental responsibility.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "social_proof": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "5⭐ Reviews",
+            "text": "<p>\"Absolutely love my Jesmonite coasters! The quality is exceptional and they look amazing in my living room.\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "As Seen on TikTok",
+            "text": "<p>Follow us @yourhandle for behind-the-scenes content and styling inspiration with our handcrafted pieces.</p>",
+            "link_label": "Follow Us",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Made to Order",
+            "text": "<p>Each piece is individually handcrafted when you order, ensuring you receive something truly unique and special.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "hero_banner",
+    "intro_text",
+    "featured_products",
+    "sustainability_note",
+    "social_proof"
+  ]
+}

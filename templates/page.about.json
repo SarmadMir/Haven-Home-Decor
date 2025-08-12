@@ -1,0 +1,189 @@
+{
+  "sections": {
+    "page_header": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "founder_story": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're two friends with a shared passion for beautiful, handcrafted home decor. Despite being in different countries, we've come together to create something special - modern Jesmonite pieces that bring warmth and character to any space.</p><p>What started as a creative hobby has grown into a mission to make sustainable, handcrafted decor accessible to everyone. Each piece we create tells a story of friendship, creativity, and our commitment to quality craftsmanship.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "why_jesmonite": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Jesmonite?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jesmonite is more than just a material - it's our choice for a more sustainable future. This innovative eco-friendly composite offers the perfect balance of beauty, durability, and environmental responsibility.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "jesmonite_benefits": {
+      "type": "multicolumn",
+      "blocks": {
+        "eco_friendly": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Eco-Friendly",
+            "text": "<p>Made from natural minerals and water-based resins, Jesmonite has a significantly lower environmental impact than traditional materials.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "durable": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Incredibly Durable",
+            "text": "<p>Despite its lightweight feel, Jesmonite is incredibly strong and long-lasting, making it perfect for everyday use in your home.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "versatile": {
+          "type": "column",
+          "settings": {
+            "image": "",
+            "title": "Endlessly Versatile",
+            "text": "<p>From smooth, polished finishes to textured surfaces, Jesmonite allows us to create unique designs that simply aren't possible with other materials.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "eco_friendly",
+        "durable",
+        "versatile"
+      ],
+      "settings": {
+        "title": "The Jesmonite Difference",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "our_commitment": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Commitment to You",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every piece we create is handmade with love and attention to detail. We believe in slow living, quality over quantity, and creating items that will be treasured for years to come.</p><p>When you choose our products, you're not just buying home decor - you're supporting small business, sustainable practices, and the timeless art of handcraftsmanship.</p>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Our Collection",
+            "button_link": "/collections/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "page_header",
+    "founder_story",
+    "why_jesmonite",
+    "jesmonite_benefits",
+    "our_commitment"
+  ]
+}

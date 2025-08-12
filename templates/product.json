@@ -1,0 +1,129 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "care_instructions": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<p><strong>Jesmonite Care Guide:</strong></p><ul><li>Clean with a damp cloth and mild soap</li><li>Avoid harsh chemicals or abrasive cleaners</li><li>Dry thoroughly after cleaning</li><li>Handle with care - Jesmonite can chip if dropped</li><li>Keep away from extreme temperatures</li></ul><p>With proper care, your handcrafted piece will last for years to come.</p>",
+            "page": ""
+          }
+        },
+        "shipping_info": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Delivery",
+            "icon": "truck",
+            "content": "<p><strong>UK Shipping:</strong></p><ul><li>Standard Delivery: 3-5 working days (£4.99)</li><li>Express Delivery: 1-2 working days (£9.99)</li><li>Free shipping on orders over £50</li></ul><p><strong>Made to Order:</strong> Please allow 5-7 working days for production before shipping.</p>",
+            "page": ""
+          }
+        },
+        "customisation": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Customisation Options",
+            "icon": "chat_bubble",
+            "content": "<p>Want something unique? We offer custom colours and sizes for most of our products.</p><p><strong>Custom Options:</strong></p><ul><li>Bespoke colour combinations</li><li>Custom sizing available</li><li>Personalised engraving</li><li>Bulk orders for events</li></ul><p>Contact us to discuss your custom requirements - additional charges may apply.</p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "care_instructions",
+        "shipping_info",
+        "customisation",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "mobile_thumbnails": "show",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 44
+      }
+    },
+    "product-recommendations": {
+      "type": "related-products",
+      "settings": {
+        "heading": "Complete the Look",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "color_scheme": "scheme-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

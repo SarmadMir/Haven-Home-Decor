@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "shipping_policy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Shipping Policy",
+            "heading_size": "h1"
+          }
+        },
+        "content": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Production Time</h3><p>All our products are handcrafted to order. Please allow <strong>5-7 working days</strong> for production before your item is shipped.</p><h3>UK Shipping Options</h3><p><strong>Standard Delivery (£4.99)</strong><br>• 3-5 working days<br>• Tracked service<br>• Available Monday-Friday</p><p><strong>Express Delivery (£9.99)</strong><br>• 1-2 working days<br>• Tracked & signed for<br>• Available Monday-Friday</p><p><strong>Free Shipping</strong><br>• Orders over £50<br>• Standard delivery timing applies</p><h3>Order Processing</h3><p>Orders placed before 2pm Monday-Friday will be processed the same day. Weekend orders will be processed on the following Monday.</p><h3>Tracking Information</h3><p>Once your order ships, you'll receive a tracking number via email. You can track your package directly with the courier.</p><h3>International Shipping</h3><p>We currently only ship within the UK. We're working to expand internationally - follow us on social media for updates!</p><h3>Special Circumstances</h3><p><strong>Peak Seasons:</strong> During busy periods (holidays, sales), production and shipping times may be extended. We'll notify you of any delays.</p><p><strong>Custom Orders:</strong> Bespoke pieces may take 2-3 weeks to complete depending on complexity.</p><h3>Shipping Address</h3><p>Please ensure your shipping address is correct before completing your order. We cannot be responsible for packages sent to incorrect addresses provided by the customer.</p><h3>Damaged Packages</h3><p>If your package arrives damaged, please contact us within 48 hours with photos. We'll arrange a replacement immediately.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "content"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": false,
+        "padding_top": 20,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shipping_policy"
+  ]
+}

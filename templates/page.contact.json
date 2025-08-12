@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 24,
+        "padding_bottom": 28
+      }
+    },
+    "contact_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get in Touch",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We'd love to hear from you! Whether you have questions about our products, want to discuss a custom order, or just want to say hello - we're here to help.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "contact_details": {
+      "type": "multicolumn",
+      "blocks": {
+        "email": {
+          "type": "column",
+          "settings": {
+            "title": "Email Us",
+            "text": "<p><strong>hello@yourstore.com</strong></p><p>We typically respond within 24 hours</p>",
+            "link_label": "Send Email",
+            "link": "mailto:hello@yourstore.com"
+          }
+        },
+        "response_time": {
+          "type": "column",
+          "settings": {
+            "title": "Response Time",
+            "text": "<p><strong>Monday-Friday:</strong> Within 24 hours<br><strong>Weekends:</strong> Within 48 hours</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "social": {
+          "type": "column",
+          "settings": {
+            "title": "Follow Us",
+            "text": "<p>See behind-the-scenes content and new product previews on our social channels</p>",
+            "link_label": "Instagram",
+            "link": "https://instagram.com/yourhandle"
+          }
+        }
+      },
+      "block_order": [
+        "email",
+        "response_time",
+        "social"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Send us a message",
+        "heading_size": "h2",
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact_intro",
+    "contact_details",
+    "form"
+  ]
+}

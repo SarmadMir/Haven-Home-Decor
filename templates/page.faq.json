@@ -1,0 +1,177 @@
+{
+  "sections": {
+    "page_header": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 24
+      }
+    },
+    "faq_intro": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently Asked Questions",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find answers to the most common questions about our handcrafted Jesmonite products, shipping, and policies. Can't find what you're looking for? <a href=\"/pages/contact\" title=\"Contact Us\">Get in touch</a> - we're here to help!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "faq_accordion": {
+      "type": "collapsible-content",
+      "blocks": {
+        "shipping_times": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does shipping take?",
+            "icon": "truck",
+            "row_content": "<p><strong>Production Time:</strong> 5-7 working days (made to order)<br><strong>UK Shipping:</strong></p><ul><li>Standard Delivery: 3-5 working days (£4.99)</li><li>Express Delivery: 1-2 working days (£9.99)</li><li>Free shipping on orders over £50</li></ul><p>Total delivery time: 8-12 working days for standard delivery.</p>",
+            "page": ""
+          }
+        },
+        "custom_orders": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer custom orders?",
+            "icon": "chat_bubble",
+            "row_content": "<p>Yes! We love creating bespoke pieces. We can customize:</p><ul><li>Colours and colour combinations</li><li>Sizes (within reason)</li><li>Personalised engraving</li><li>Bulk orders for special events</li></ul><p>Contact us with your requirements for a quote. Custom orders typically take 2-3 weeks to complete.</p>",
+            "page": ""
+          }
+        },
+        "returns_policy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your returns policy?",
+            "icon": "return",
+            "row_content": "<p><strong>Standard Items:</strong> 14-day return window from delivery date. Items must be unused and in original condition.</p><p><strong>Custom/Personalised Items:</strong> Unfortunately, custom pieces cannot be returned unless faulty.</p><p><strong>Damaged Items:</strong> Please contact us within 48 hours with photos - we'll arrange a replacement immediately.</p><p>Return shipping costs are covered by the customer unless the item is faulty.</p>",
+            "page": ""
+          }
+        },
+        "care_instructions": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for Jesmonite products?",
+            "icon": "heart",
+            "row_content": "<p>Jesmonite is easy to care for with proper handling:</p><ul><li><strong>Cleaning:</strong> Use a damp cloth with mild soap, avoid harsh chemicals</li><li><strong>Drying:</strong> Dry thoroughly after cleaning</li><li><strong>Handling:</strong> Handle with care - Jesmonite can chip if dropped</li><li><strong>Storage:</strong> Keep away from extreme temperatures</li></ul><p>With proper care, your pieces will last for years!</p>",
+            "page": ""
+          }
+        },
+        "international_shipping": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you ship internationally?",
+            "icon": "plane",
+            "row_content": "<p>Currently, we only ship within the UK. We're working on expanding internationally - follow us on social media for updates!</p><p>If you're outside the UK and would like to place an order, please contact us - we may be able to arrange special shipping for larger orders.</p>",
+            "page": ""
+          }
+        },
+        "wholesale": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer wholesale pricing?",
+            "icon": "price_tag",
+            "row_content": "<p>Yes! We work with retailers, interior designers, and businesses looking to stock our products.</p><p><strong>Wholesale Requirements:</strong></p><ul><li>Minimum order quantities apply</li><li>Trade references required</li><li>Exclusive designs available</li></ul><p>Contact us for our wholesale catalog and pricing information.</p>",
+            "page": ""
+          }
+        },
+        "sustainability": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How sustainable are your products?",
+            "icon": "leaf",
+            "row_content": "<p>Sustainability is at the heart of what we do:</p><ul><li><strong>Jesmonite:</strong> Made from natural minerals with water-based resins</li><li><strong>Packaging:</strong> Minimal, recyclable packaging materials</li><li><strong>Production:</strong> Made to order to reduce waste</li><li><strong>Local:</strong> Handcrafted in the UK to reduce shipping emissions</li></ul><p>Every purchase supports sustainable, responsible craftsmanship.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_times",
+        "custom_orders",
+        "returns_policy",
+        "care_instructions",
+        "international_shipping",
+        "wholesale",
+        "sustainability"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_cta": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Still have questions?",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're here to help! Send us a message and we'll get back to you within 24 hours.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "/pages/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "page_header",
+    "faq_intro",
+    "faq_accordion",
+    "contact_cta"
+  ]
+}
